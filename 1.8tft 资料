@@ -1,13 +1,4 @@
-void LCD_DrawLine(u16 x1, u16 y1, u16 x2, u16 y2,u16 color)
-{
-        u16 t; 
-        int xerr=0,yerr=0,delta_x,delta_y,distance; 
-        int incx,incy,uRow,uCol; 
 
-        delta_x=x2-x1; //计算坐标增量 
-        delta_y=y2-y1; 
-        uRow=x1; 
-        uCol=y1; 
 distance=delta_x; //选取基本增量坐标轴
 
         //假设x为较长边
